@@ -1,7 +1,7 @@
 import socket, threading
 
 LISTEN_PORT = 12345
-PI_IP        = '192.168.137.105'
+PI_IP        = 'Raspberry Pi IP'
 PI_PORT      = 12345
 
 def forward(src, dst):
