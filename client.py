@@ -1,7 +1,7 @@
 import socket
 import ssl
 
-HOST = "192.168.137.105"  # or use IP, like "192.92.168.1.X"
+HOST = "Raspberry Pi IP if connected directly and Middle PC(proxy) if Pi is remote"  
 PORT = 12345
 
 context = ssl.create_default_context()
